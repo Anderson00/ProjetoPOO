@@ -1,0 +1,22 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+
+.root {
+	-fx-background-color: linear-gradient(#222, #444);
+}
+
+.hyperlink { -fx-text-fill:rgb(114,159,207); -fx-border-style: none; -fx-border-color: transparent }
+.hyperlink:visited {-fx-underline: false }
+.hyperlink:hover {-fx-underline:true}
+
+.jfx-text-area, .text-area{
+	-fx-font-weight: BOLD;
+}
+
+.jfx-text-field .errorLabel, .jfx-password-field .errorLabel , .jfx-text-area .errorLabel{
+	-fx-text-fill : #D34336;
+	-fx-font-size: 0.75em;
+}
+.jfx-text-field .errorIcon, .jfx-password-field .errorIcon, .jfx-text-area .errorIcon{
+	-fx-text-fill : #D34336;
+	-fx-font-size: 0.5em;
+}
